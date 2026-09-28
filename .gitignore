@@ -1,0 +1,32 @@
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+assets/local_runtime.yaml
+
+# Generated research data and copyrighted/full-text material
+data/
+*.sqlite
+*.sqlite3
+*.db
+*.pdf
+.webvpn-browser-profile/
+.webvpn_chrome_profile/
+
+# Python and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+

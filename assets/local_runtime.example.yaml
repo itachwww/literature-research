@@ -1,0 +1,17 @@
+# Copy to assets/local_runtime.yaml for machine-local defaults, or point
+# LIT_RESEARCH_RUNTIME_CONFIG to a config stored elsewhere.
+data_root: "~/.literature-research/projects"
+default_env_file: ""
+pdf_fetch_policy: after_screening
+pdf_methods: unpaywall,publisher
+require_pdf_for_inclusion: true
+representatives_include_candidates: false
+
+# Institutional access is optional. Keep credentials in environment variables.
+institutional_access_mode: ""
+webvpn_browser_path: ""
+webvpn_user_data_dir: "{data_root}/.webvpn-browser-profile"
+webvpn_login_timeout: 180
+webvpn_manual_wait_timeout: 600
+webvpn_max_consecutive_failures: 3
+

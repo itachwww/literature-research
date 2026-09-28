@@ -1,0 +1,59 @@
+# Copy this file to your project and edit it. Do not store secrets here.
+project: demo-solid-state-batteries
+topic: Computational studies of interfaces in solid-state batteries
+data_root: ""
+output_language: en
+date_from:
+date_to:
+
+# Domain-neutral screening is the public default. Specialized legacy modes are
+# documented in references/configuration.md and must be selected explicitly.
+screening_mode: generic
+require_pdf_for_inclusion: true
+require_method_primary: true
+original_research_only: true
+
+search_depth: balanced
+query_strategy: balanced_matrix
+search_max_queries:
+search_max_records:
+search_max_per_query:
+search_source_max_pages:
+search_split_years:
+search_year_chunk_size:
+include_topic_only_queries: false
+custom_queries: []
+
+search_terms:
+  - solid-state battery
+  - solid electrolyte interface
+  - electrode electrolyte interface
+method_terms:
+  - density functional theory
+  - first-principles
+  - molecular dynamics
+
+# Optional literal keyword exclusions used by generic automated triage.
+# Keep semantic inclusion/exclusion rules below for human review.
+exclude_terms: []
+include_rules:
+  - The interface is a central object of study.
+  - The configured computational method contributes to the main conclusions.
+exclude_rules:
+  - The interface is mentioned only as background.
+  - The configured method is peripheral to an experimental study.
+
+# Optional direction classifier. Values are literal keyword lists.
+direction_terms:
+  electronic_structure:
+    - density functional theory
+    - first-principles
+  atomistic_dynamics:
+    - molecular dynamics
+    - diffusion
+
+tracked_journals: []
+pdf_fetch_policy: after_screening
+pdf_methods: unpaywall,publisher
+representatives_include_candidates: false
+

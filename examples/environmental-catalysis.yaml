@@ -1,0 +1,25 @@
+project: environmental-catalysis-example
+topic: Environmental catalysis studies led by theoretical simulation or machine learning
+data_root: ""
+date_from: 2021-01-01
+date_to:
+screening_mode: environmental_catalysis_theory_ml
+require_pdf_for_inclusion: true
+require_method_primary: true
+original_research_only: true
+search_depth: balanced
+pdf_fetch_policy: after_screening
+pdf_methods: unpaywall,publisher
+search_terms:
+  - environmental catalysis
+  - water treatment catalysis
+  - pollutant degradation
+method_terms:
+  - density functional theory
+  - molecular dynamics
+  - machine learning
+include_rules:
+  - Theory, simulation, or machine learning is a primary research method.
+exclude_rules:
+  - Computation is only a minor interpretation of an experimental study.
+
